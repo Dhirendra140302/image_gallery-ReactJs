@@ -1,16 +1,108 @@
-# React + Vite
+# 📸 Image Gallery – ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Image Gallery application built with ReactJS** that displays  
+**API-based dynamic images with search functionality**.
 
-Currently, two official plugins are available:
+This project demonstrates real-world React concepts such as API integration, state management, conditional rendering, reusable components, and clean UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ **ReactJS**
+- 🌍 **REST API** (Dynamic image fetching)
+- 🔍 **Search functionality**
+- 🎨 **CSS3**
+- ⚡ **Vite**
+- 💻 **JavaScript (ES6+)**
+- 🔧 **Git & GitHub**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🌍 Fetches **dynamic images from API**
+- 🔍 **Search images** based on user input
+- 📷 Responsive image gallery layout
+- 🧩 Reusable React components
+- 🔄 State management using `useState`
+- ⏳ Loading UI using **Shimmer Effect**
+- ⚡ Fast development with Vite
+- 🎯 Clean, readable & interview-friendly code
+
+---
+
+## 📂 Project Structure
+
+imagegallery/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ ├── AsyncAwaitApi.jsx
+│ ├── FetchingProduct.jsx
+│ ├── ShimmerEffect.jsx
+│ ├── Counter.jsx
+│ └── ChildA.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Dhirendra140302/image_gallery-ReactJs.git
+
+2️⃣ Navigate to project directory
+cd image_gallery-ReactJs
+
+3️⃣ Install dependencies
+npm install
+
+4️⃣ Run the application
+npm run dev
+
+👉 Open browser and visit:
+http://localhost:5173
+
+
+🔍 How Search Works
+.User enters a keyword in the search input
+.API request fetches images dynamically
+.Results are filtered and displayed in real time
+.Improves user experience and performance
+
+🌍 API Integration
+.Uses REST API to fetch images dynamically
+.API calls handled using async / await
+.Loading state managed using Shimmer UI
+.Clean error-free rendering with conditional logic
+
+🧠 What I Learned From This Project
+✔️ API integration in React
+✔️ Handling async operations using async/await
+✔️ Search implementation using state
+✔️ Component reusability
+✔️ Conditional rendering
+✔️ UI optimization & performance
+✔️ Project structuring using Vite
+
+🎯 Future Enhancements
+📄 Pagination / infinite scrolling
+🖼️ Image preview modal (lightbox)
+🏷️ Category-based filtering
+🎨 UI enhancement using Tailwind / Bootstrap
+🔐 Environment variables for API keys
+
+
+👨‍💻 Author
+Dhirendra Yadav
+GitHub: https://github.com/Dhirendra140302
+
